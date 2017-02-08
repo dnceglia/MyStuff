@@ -1,0 +1,6 @@
+C:\Users\dnceg\Desktop\Upload file to Github\Project deuce\Project deuce\bin\Debug\Project deuce.exe.config
+C:\Users\dnceg\Desktop\Upload file to Github\Project deuce\Project deuce\obj\Debug\Project deuce.csprojResolveAssemblyReference.cache
+C:\Users\dnceg\Desktop\Upload file to Github\Project deuce\Project deuce\bin\Debug\Project deuce.exe
+C:\Users\dnceg\Desktop\Upload file to Github\Project deuce\Project deuce\bin\Debug\Project deuce.pdb
+C:\Users\dnceg\Desktop\Upload file to Github\Project deuce\Project deuce\obj\Debug\Project deuce.exe
+C:\Users\dnceg\Desktop\Upload file to Github\Project deuce\Project deuce\obj\Debug\Project deuce.pdb

@@ -1,0 +1,6 @@
+C:\Users\dnceg\Desktop\Upload file to Github\1050Project...I\1050Project...I\bin\Debug\_1050Project._._.I.exe.config
+C:\Users\dnceg\Desktop\Upload file to Github\1050Project...I\1050Project...I\obj\Debug\1050Project...I.csprojResolveAssemblyReference.cache
+C:\Users\dnceg\Desktop\Upload file to Github\1050Project...I\1050Project...I\bin\Debug\_1050Project._._.I.exe
+C:\Users\dnceg\Desktop\Upload file to Github\1050Project...I\1050Project...I\bin\Debug\_1050Project._._.I.pdb
+C:\Users\dnceg\Desktop\Upload file to Github\1050Project...I\1050Project...I\obj\Debug\_1050Project._._.I.exe
+C:\Users\dnceg\Desktop\Upload file to Github\1050Project...I\1050Project...I\obj\Debug\_1050Project._._.I.pdb
