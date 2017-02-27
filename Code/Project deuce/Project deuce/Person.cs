@@ -34,7 +34,7 @@
 
         public void StateYourMaritalStatus()
         {
-            System.Console.WriteLine("What is your spouse's first name if you're married? ");
+            System.Console.WriteLine("What is your spouse's first name? ");
             this.Spouse.FirstName = System.Console.ReadLine();
             this.Spouse.LastName = this.LastName;
 
@@ -42,17 +42,13 @@
             this.Spouse.Age = int.Parse(System.Console.ReadLine());
 
             Person.AgeCount++;
-            Person.SumOfAllAges += Age;
+            Person.SumOfAllAges += this.Age;
+            Person.SumOfAllAges += this.Spouse.Age;
         }
 
         public static double AgeAverage()
         {
             return Person.SumOfAllAges / Person.AgeCount;
-        }
-
-        public void PrintAverageAge()
-        {
-            System.Console.WriteLine("Your average age is " + AgeAverage() + " years old.");
         }
     }
 }

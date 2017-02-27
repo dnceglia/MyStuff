@@ -19,8 +19,7 @@
             p1.Spouse.PrintNameAndAge();
             p2.PrintNameAndAge();
             p2.Spouse.PrintNameAndAge();
-            // PrintAverageAge();
-            // System.Console.WriteLine("Your average age is " + Person.AgeAverage() + " years old.");
+            System.Console.WriteLine("Your average age is " + Person.AgeAverage() + " years old.");
 
             System.Console.WriteLine("Press any key to continue...");
             System.Console.ReadKey();
