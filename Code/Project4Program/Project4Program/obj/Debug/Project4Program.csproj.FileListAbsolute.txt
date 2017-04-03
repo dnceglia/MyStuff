@@ -1,0 +1,6 @@
+C:\Users\dnceg\Desktop\MyStuff\Code\Project4Program\Project4Program\bin\Debug\Project4Program.exe.config
+C:\Users\dnceg\Desktop\MyStuff\Code\Project4Program\Project4Program\bin\Debug\Project4Program.exe
+C:\Users\dnceg\Desktop\MyStuff\Code\Project4Program\Project4Program\bin\Debug\Project4Program.pdb
+C:\Users\dnceg\Desktop\MyStuff\Code\Project4Program\Project4Program\obj\Debug\Project4Program.csprojResolveAssemblyReference.cache
+C:\Users\dnceg\Desktop\MyStuff\Code\Project4Program\Project4Program\obj\Debug\Project4Program.exe
+C:\Users\dnceg\Desktop\MyStuff\Code\Project4Program\Project4Program\obj\Debug\Project4Program.pdb
