@@ -4,6 +4,8 @@
     {
         static void Main(string[] args)
         {
+            
+
             System.Console.WriteLine(" =================================================== ");
             System.Console.WriteLine(" ||                                               ||");
             System.Console.WriteLine(" ||  **   ** ****** **      ** ****** ***** ***** ||");
@@ -45,9 +47,11 @@
             int popcornQuantity = int.Parse(System.Console.ReadLine());
 
             System.Console.Write("How many boxes of candy would you like? ");
-            double candyQuantity = double.Parse(System.Console.ReadLine());
+            int candyQuantity = int.Parse(System.Console.ReadLine());
 
             double totalPrice = 0;
+            int minimumQuantity = 0;
+            int freeCandyQuantity = 0;
 
             totalPrice += childMatineeQuantity * 3.99;
             totalPrice += adultMatineeQuantity * 5.99;
@@ -61,32 +65,24 @@
             totalPrice += popcornQuantity * 4.50;
             totalPrice += candyQuantity * 1.99;
 
-
-            /////////////////////////////////////////////////////////////////////////////////////////////////
-            /////////////////////////////////////////////////////////////////////////////////////////////////
-
-            if (candyQuantity / 3 == 1 || candyQuantity / 3 == 2 || candyQuantity / 3 == 3)
+            if (candyQuantity >= 3)
             {
-                double candyQuantityPrice = candyQuantity * 1.99;
-                candyQuantity++;
-                System.Console.WriteLine(candyQuantityPrice);
+                freeCandyQuantity = candyQuantity / 4;
             }
 
-            ////////////////////////////////////////////////////////////////////////////////////////////////////
-            ////////////////////////////////////////////////////////////////////////////////////////////////////
-
-            // if (popcornQuantity >= 1 && largeDrinkQuantity >= 1)
-            // {
-            // totalPrice - 2;
-            // }
-
-            ////////////////////////////////////////////////////////////////////////////////////////////////////////
-            ////////////////////////////////////////////////////////////////////////////////////////////////////////
-
-            if (childEveningQuantity + adultEveningQuantity + seniorEveningQuantity >= 3)
+            if (popcornQuantity < largeDrinkQuantity)
             {
-                popcornQuantity++;
+                minimumQuantity = popcornQuantity;
             }
+            else
+            {
+                minimumQuantity = largeDrinkQuantity;
+            }
+
+            double dosDollarDiscount = minimumQuantity * 2.00;
+            totalPrice -= dosDollarDiscount;
+
+            totalPrice -= freeCandyQuantity * 1.99;
 
             System.Console.WriteLine("");
             System.Console.WriteLine("Your movie trip cost: " + totalPrice);
