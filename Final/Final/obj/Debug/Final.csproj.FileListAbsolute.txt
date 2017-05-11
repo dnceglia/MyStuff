@@ -1,0 +1,6 @@
+C:\Users\dnceg\Desktop\Final\Final\bin\Debug\Final.exe.config
+C:\Users\dnceg\Desktop\Final\Final\bin\Debug\Final.exe
+C:\Users\dnceg\Desktop\Final\Final\bin\Debug\Final.pdb
+C:\Users\dnceg\Desktop\Final\Final\obj\Debug\Final.csprojResolveAssemblyReference.cache
+C:\Users\dnceg\Desktop\Final\Final\obj\Debug\Final.exe
+C:\Users\dnceg\Desktop\Final\Final\obj\Debug\Final.pdb
